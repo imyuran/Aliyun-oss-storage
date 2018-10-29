@@ -24,7 +24,7 @@ Then in your `config/app.php` add this line to providers array:
 Jacobcyl\AliOSS\AliOssServiceProvider::class,
 ```
 ## Configuration
-Add the following in app/filesystems.php:
+Add the following in config/filesystems.php:
 ```php
 'disks'=>[
     ...
@@ -43,7 +43,7 @@ Add the following in app/filesystems.php:
     ...
 ]
 ```
-Then set the default driver in app/filesystems.php:
+Then set the default driver in config/filesystems.php:
 ```php
 'default' => 'oss',
 ```
